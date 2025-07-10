@@ -24,5 +24,6 @@ http.createServer((req,res)=>{
 
     res.setHeader("Contant-Type","application/json");
     res.write(JSON.stringify(data))
+    res.end()
   
-}).listen(3000);
+}).listen(8000);
